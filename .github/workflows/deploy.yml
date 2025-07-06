@@ -1,0 +1,26 @@
+name: Deploy to VM
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Start SSH agent and add key
+        uses: webfactory/ssh-agent@v0.8.1
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Deploy app on VM
+        run: |
+          ssh -o StrictHostKeyChecking=no vagrant@192.168.56.101 << 'EOF'
+            cd /vagrant
+            docker-compose pull
+            docker-compose up -d --build
+          EOF
