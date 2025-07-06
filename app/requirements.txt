@@ -1,3 +1,5 @@
 # /vagrant/app/requirements.txt
 
 flask==2.3.3
+
+pytest
