@@ -1,5 +1,6 @@
 
 # DevOps Self-Study Lab Project
+![CI](https://github.com/andriysmyk/flask_docker_nginx_vagrant/actions/workflows/ci.yml/badge.svg)
 
 This project is a local full-stack environment built as part of my DevOps self-education. It demonstrates key DevOps concepts using modern tools like Docker, Nginx, GitHub Actions, and Vagrant.
 
@@ -7,7 +8,7 @@ This project is a local full-stack environment built as part of my DevOps self-e
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 
 - **Python + Flask** — Simple web application  
 - **Docker + Docker Compose** — Containerized deployment  
@@ -18,10 +19,10 @@ This project is a local full-stack environment built as part of my DevOps self-e
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
-asmyk_selfstudy/
+flask_docker_nginx_vagrant/
 ├── app/                  # Flask web app
 │   ├── app.py
 │   ├── __init__.py
@@ -36,7 +37,7 @@ asmyk_selfstudy/
 
 ---
 
-## 🚀 Usage Instructions
+##  Usage Instructions
 
 ### 1. Launch the VM
 
@@ -57,7 +58,7 @@ docker-compose up -d
 
 ---
 
-## ✅ CI/CD with GitHub Actions
+##  CI/CD with GitHub Actions
 
 On every push to the `main` branch:
 
@@ -65,7 +66,7 @@ On every push to the `main` branch:
 - Tests are run with `pytest`  
 - GitHub Actions SSH into the VM and redeploy containers
 
-### 🧩 Example Deployment Step
+###  Example Deployment Step
 
 ```yaml
 - name: Deploy to VM
@@ -81,7 +82,7 @@ On every push to the `main` branch:
 
 ---
 
-## 🎯 Project Goals
+##  Project Goals
 
 - Practice Infrastructure as Code (IaC)  
 - Automate deployments with CI/CD  
@@ -90,7 +91,7 @@ On every push to the `main` branch:
 
 ---
 
-## 🔭 Next Steps
+##  Next Steps
 
 - Integrate monitoring (Zabbix)  
 - Add container healthchecks & alerts  
@@ -104,4 +105,4 @@ On every push to the `main` branch:
 I’m currently seeking DevOps opportunities in **London, UK 🇬🇧**.  
 Feel free to reach out or leave feedback!
 
-👉 [LinkedIn Profile](https://www.linkedin.com/in/andriy-smyk-b5446311b)
+👉 [LinkedIn Profile](https://www.linkedin.com/in/andriysmyk)
