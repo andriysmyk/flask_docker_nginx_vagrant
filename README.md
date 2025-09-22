@@ -2,7 +2,8 @@
 # DevOps Self-Study Lab Project
 ![CI](https://github.com/andriysmyk/flask_docker_nginx_vagrant/actions/workflows/ci.yml/badge.svg)
 
-This project is a local full-stack environment built as part of my DevOps self-education. It demonstrates key DevOps concepts using modern tools like Docker, Nginx, GitHub Actions, and Vagrant.
+This project is a local full-stack DevOps lab built as part of my self-study journey.  
+It demonstrates key DevOps concepts including containerization, reverse proxying, CI/CD automation, and self-hosted runners inside a Vagrant VM (Ubuntu 22.04).
 
 > The app runs locally in a virtual machine and is automatically deployed via GitHub Actions CI/CD.
 
