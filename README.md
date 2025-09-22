@@ -1,8 +1,7 @@
-
 # DevOps Self-Study Lab Project
-![CI](https://github.com/andriysmyk/flask_docker_nginx_vagrant/actions/workflows/ci.yaml/badge.svg)
-![Deploy](https://github.com/andriysmyk/flask_docker_nginx_vagrant/actions/workflows/deploy.yaml/badge.svg)
 
+[![CI](https://github.com/andriysmyk/flask_docker_nginx_vagrant/actions/workflows/ci.yml/badge.svg)](https://github.com/andriysmyk/flask_docker_nginx_vagrant/actions/workflows/ci.yml)
+[![Deploy to VM](https://github.com/andriysmyk/flask_docker_nginx_vagrant/actions/workflows/deploy.yml/badge.svg)](https://github.com/andriysmyk/flask_docker_nginx_vagrant/actions/workflows/deploy.yml)
 
 This project is a local full-stack DevOps lab built as part of my self-study journey.  
 It demonstrates key DevOps concepts including containerization, reverse proxying, CI/CD automation, and self-hosted runners inside a Vagrant VM (Ubuntu 22.04).
